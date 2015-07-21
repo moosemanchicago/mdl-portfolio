@@ -1,0 +1,55 @@
+<!doctype html>
+<html class="no-js" lang="en" data-ng-app="PortfolioApp">
+
+  <head>
+<!--     <meta name="viewport" content="width=device-width, initial-scale=1.0" /> -->
+
+    <script type="text/javascript" src="js/angular/angular.js"></script>
+    <script type="text/javascript" src="js/scripts.js"></script>
+
+    <link rel="stylesheet" href="https://storage.googleapis.com/code.getmdl.io/1.0.0/material.indigo-pink.min.css">
+    <script src="https://storage.googleapis.com/code.getmdl.io/1.0.0/material.min.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+      <link rel="stylesheet" type="text/css" href="css/style.css">
+
+  </head>
+
+  <body data-ng-controller="MainController">
+
+<header class="docs-layout-header mdl-layout__header is-casting-shadow">
+
+      <div class="docs-navigation__container">
+        <nav class="docs-navigation mdl-navigation">
+          <a href="./index.html" class="mdl-navigation__link about">Mustafa R Ishaq</a>
+        </nav>
+      </div>
+
+</header>
+
+<div id="wrapper" class="mdl-grid" >
+
+        <div class="mdl-cell mdl-cell--12-col mdl-cell--6-col-desktop mdl-card mdl-shadow--2dp project-card" ng-repeat="website in retrievedData.websites">
+          <div class="mdl-card__title">
+            <span class="mdl-card__title-text"><img ng-src="img/logos/{{website.logo}}" /></span>
+          </div>
+          <div class="mdl-card__supporting-text">{{website.description}}</div>
+          <div class="mdl-card__actions mdl-card--border">
+            <a href="{{website.url}}" target="_blank" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--colored">
+            View Site
+            </a>
+
+          </div>
+          <div class="mdl-card__menu">
+            <button class="mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect">
+              <i class="material-icons">share</i>
+            </button>
+          </div>
+        </div>
+
+</div>
+
+
+  </body>
+
+</html>

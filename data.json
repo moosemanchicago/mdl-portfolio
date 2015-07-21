@@ -1,0 +1,22 @@
+{
+	"websites":	[
+		{"brand":"Hampshire Hotels", "name":"Hampshire Hotels Corporate Site", "url":"http://www.hampshirehotels.com/", "date":"2014","logo":"hampshire-hotels.png","description":"Corporate Site for Hampshire Hotel Group"},
+		{"brand":"Arc The.Hotel", "name":"Arc The.Hotel", "url":"http://arc.devsite-1.com/", "date":"2015","logo":"arc.png","description":"Single website for a hotel in Ontario - Under Construction"},
+		{"brand":"Four Seasons", "name":"Four Seasons Washington, DC", "url":"http://www.fourseasonswashingtondc.com/", "date":"2015","logo":"fs-wdc.png","description":"First of 80+ sites for Four Seasons Hotel Group"},
+		{"brand":"Four Seasons", "name":"Four Seasons Jackson Hole, Wyoming", "url":"http://www.fourseasonsjacksonholewy.com/", "date":"2015","logo":"fs-jhwy.png","description":"First clone of Four Seasons Washington DC template"},
+		{"brand":"La Fuente Inn", "name":"La Fuente Inn - Yuma", "url":"http://www.lafuenteinn-yuma.com/", "date":"2014","logo":"lafuente.png","description":"Pre-built proprietary template site built by Moose"},
+		{"brand":"Turnberry Isle", "name":"Turnberry Isle Golf Resort Miami", "url":"http://www.turnberryislemiami.com/", "date":"2015","logo":"turnberry.jpg","description":"One of the first websites built for TravelClick by Moose"},
+		{"brand":"World Way International", "name":"World Way International", "url":"http://www.worldwayinternational.com/", "date":"2014","logo":"worldway.jpg","description":"First independent responsive website made by Moose using Foundation Framework"},
+		{"brand":"Dream Hotels Collection", "name":"Corporate Site", "url":"http://www.dreamhotels.com/", "date":"2014-2015","logo":"dream-hotels.png","description":"Corporate/Group site built as a portal to other Dream Hotels properties"},
+		{"brand":"Dream Hotels Collection", "name":"Midtown", "url":"http://www.dreamny.com/", "date":"2014-2015","logo":"dream-midtown.png","description":"Dream Midtown"},
+		{"brand":"Dream Hotels Collection", "name":"Downtown", "url":"http://www.dreamdowntown.com/", "date":"2014-2015","logo":"dream-downtown.png","description":"Dream Downtown"},
+		{"brand":"Dream Hotels Collection", "name":"South Beach", "url":"http://www.dreamsouthbeach.com/", "date":"2014-2015","logo":"dream-southbeach.png","description":"Dream South Beach"},
+		{"brand":"Dream Hotels Collection", "name":"Cochin", "url":"http://www.dreamcochin.com/", "date":"2014-2015","logo":"dream-cochin.png","description":"Dream Cochin"},
+		{"brand":"Dream Hotels Collection", "name":"Bangkok", "url":"http://www.dreambkk.com/", "date":"2014-2015","logo":"dream-bangkok.png","description":"Dream Bangkok"},
+		{"brand":"Hilton", "name":"Hilton Chicago O'Hare", "url":"http://www.hiltonchicagoohare.com/", "date":"2013-2014","logo":"","description":"Template site built for Hilton"},
+		{"brand":"Hilton", "name":"Hilton Condado Plaza", "url":"http://www.condadoplaza.com/", "date":"2013-2014","logo":"","description":"Template site built for Hilton"},
+		{"brand":"Hilton", "name":"Hilton El San Juan Hotel", "url":"http://www.elsanjuanhotel.com/", "date":"2013-2014","logo":"","description":"Template site built for Hilton"}
+
+
+	]
+}

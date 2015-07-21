@@ -1,0 +1,78 @@
+/*
+    Mustafa Raza Ishaq
+    mishaq@travelclick.com
+    Custom Form for Arc Hotel
+    Copyright 2015
+*/
+
+
+*{
+  font-family: Tahoma, Geneva, sans-serif;
+  font-size: 1rem;
+  margin: 0;
+  padding: 0;
+}
+
+/* HTML5 Shiv */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+summary {
+  display: block;
+}
+
+h1,h2,h3,h4,h5{
+	display: inline-block;
+}
+
+/*
+    nice little shadow on the top of the body
+    look near the bottom of the address bar to see it!
+*/
+body:before {
+  content: "";
+  height: 10px;
+  left: 0;
+  position: fixed;
+  top: -10px;
+  width: 100%;
+  z-index: 100;
+  -moz-box-shadow: 0px 0px 10px rgba(0,0,0,.8);
+  -ms-box-shadow: 0px 0px 10px rgba(0,0,0,.8);
+  -webkit-box-shadow: 0px 0px 10px rgba(0,0,0,.8);
+  box-shadow: 0px 0px 10px rgba(0,0,0,.8);
+
+
+}
+
+
+  .mdl-card{
+    float: left;
+  }
+  .project-card.mdl-card {
+  }
+  .project-card > .mdl-card__title {
+    color: #fff;
+    height: 200px;
+    background: url('../img/welcome.jpg') center / cover;
+    /*background: black;*/
+  }
+  .project-card > .mdl-card__menu {
+    color: #fff;
+  }
+
+  .mdl-navigation__link{
+    color: white;
+    font-size: 2rem;
+    line-height: 4rem;
+    text-transform: uppercase;
+    padding: 16px;
+  }
